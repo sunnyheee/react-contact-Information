@@ -17,7 +17,7 @@ const ContactForm = () => {
   return (
     <Form onSubmit={(e) => createContact(e)}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Name</Form.Label>
+        <Form.Label>이름</Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter name"
@@ -28,7 +28,7 @@ const ContactForm = () => {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Phone Number</Form.Label>
+        <Form.Label>전화번호</Form.Label>
         <Form.Control
           type="text"
           placeholder="Phone Number"
